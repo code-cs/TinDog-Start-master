@@ -7,7 +7,12 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
 }
-
+h3{
+  font-family: "Monserrat-bold";
+}
+p{
+  color: #8f8f8f;
+}
 /* ******* CLASS TGAS******* */
 .container {
   padding: 3% 15%;
@@ -35,11 +40,27 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
 }
+.feature-box{
+  text-align:center ;
+  padding: 5%;
+}
+
 /* ******* ID TGAS******* */
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
+.icon{
+  color: #ef7172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
 #container-fluid {
   padding: 3% 15%;
+}
+/* feature section */
+#features{
+  padding: 5% 15%;
 }
